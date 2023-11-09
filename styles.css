@@ -1,0 +1,106 @@
+@font-face {
+  font-family: Dauphin;
+  src: url(Dauphin.ttf);
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(OpenSans.ttf);
+  }
+body{
+    font-family: 'OpenSans',Arial,sans-serif;
+    text-align: center;
+    padding: 0;
+    font-size: 15px;
+    padding-left: 150px;
+    padding-right: 150px;
+   
+  }
+  input, textarea {
+    font-size: 14px;
+    font-family: 'OpenSans',Arial,sans-serif;
+    border-radius: 2px;
+}
+
+input{
+    width: 30px;
+    text-align: center;
+    padding: 3px 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #666 #ccc #ccc #666;
+}
+
+  a.link1{
+    font-family: serif;
+    font-size: 13px;
+    color: black;
+    padding-left: 3px;
+    padding-right: 3px;
+    opacity: 0.8;
+  }
+  a.link1:hover{
+    color: orangered;
+  }
+  a.red{color: red;
+    font-weight: bold;
+}
+  h1, h5{
+    font-size: 70px;
+    line-height: 90px;
+    font-family: Dauphin;
+    font-weight: 400;
+    margin: 0;
+  }
+  a.mid{padding: 8px;
+  color: black;}
+  .lorem{
+    font-weight: 400;
+    margin: 10px 10px 5px 10px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    font-style: italic;
+  
+  }
+  .small{
+    margin: 5px 10px 20px 10px;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    padding: 0;
+    opacity: 0.8;
+  }
+  h5{
+    font-size: 24px;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+  .asquare{
+    display: grid;
+  grid-template-columns: auto auto;
+  }
+  div.square{
+    text-align: justify;
+    padding: 30px;
+  }
+ 
+  div.full{text-align:justify;
+  }
+  @media (max-width: 1150px) {
+    body {
+    padding: 0;
+    }
+    }
+    @media only screen and (max-width: 900px) {
+     .asquare{
+        display: grid;
+      grid-template-columns: auto;
+      }   
+      div.square{
+        padding: 15px;
+      }
+     
+        }
